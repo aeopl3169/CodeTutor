@@ -42,7 +42,7 @@ fun MainScreen2(mainActivityViewModel: MainActivityViewModel) {
             horizontalArrangement = Arrangement.SpaceAround,
             verticalAlignment = Alignment.CenterVertically) {
             Button(onClick = { mainActivityViewModel.decreaseCount.invoke() },
-                    colors = ButtonDefaults.buttonColors(Color.Black)) {
+                    colors = ButtonDefaults.buttonColors(Color.Red)) {
                 Text(text = "Decrement")
             }
 
